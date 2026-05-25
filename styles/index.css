@@ -3,30 +3,33 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    background-color: black; 
+body {
+    background-color: black;
     color: #FFFFFF; /*white*/
     background: url("../images/pizza.jpg");
     background-size: cover;
 }
 
-h1{
+h1 {
     font-size: 70px;
+    color: white;
 }
-
 #navbar{
-    background: rgba(0, 0, 0, 0.5)
+    background: rgba(0,0,0,0.5);
 }
 
-.logo{
+.logo {
     font-size: 24px;
     font-weight: bold;
+    color: white;
 }
 
 li{
     display: inline-block;
-    margin: 0 16px 0 16px; /*margin: 0 16px;*/
+    color: #FFF;
+    text-decoration: none;
+    /* margin: 0 16x 0 16px; */
+    margin: 0 16px;
 }
 
 .link-menu{
